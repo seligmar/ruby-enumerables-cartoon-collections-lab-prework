@@ -15,7 +15,7 @@ def long_planeteer_calls(words)
   end 
 end
 
-  cheese_types = ["cheddar", "gouda", "camembert"]
+#cheese_types = ["cheddar", "gouda", "camembert"]
   
 def find_the_cheese(foods)
   foods.find{ |cheese| cheese == "cheddar" || cheese == "gouda" || cheese ==
