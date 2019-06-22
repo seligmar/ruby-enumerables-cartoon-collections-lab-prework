@@ -1,7 +1,6 @@
 def roll_call_dwarves(dwarves)
   var1 = []
-  dwarves.each_with_index do {|tyrion, index| var1[tyrion] = index}
-  puts "#{var1}"
+  dwarves.each_with_index do {|tyrion, index| puts "#{index}" + "#{tyrion}"}var1[tyrion] 
 end 
 end 
 
