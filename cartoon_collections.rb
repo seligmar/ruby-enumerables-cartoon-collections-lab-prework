@@ -20,6 +20,6 @@ end
 def find_the_cheese(foods)
   if foods.include?("cheddar" || "gouda" || "camembert")
    foods.find do |cheese|
-     cheese 
-     end { cheese == "cheddar", "gouda", "camembert" } 
+     heese == "cheddar", "gouda", "camembert" cheese 
+     end { c} 
 end
