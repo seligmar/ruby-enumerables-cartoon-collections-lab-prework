@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planateer_calls)
  # new_calls = []
-  planateer_calls.map {|letter, exclaim| letter.capitalize, !} 
+  planateer_calls.map {|letter, exclaim| letter.capitalize, !}} 
     #new_calls.push()
    # end 
  #new_calls
