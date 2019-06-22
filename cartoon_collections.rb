@@ -5,7 +5,7 @@ end
 def summon_captain_planet(planateer_calls)
   #memo = []
   memo = planateer_calls.map {|letter| letter.capitalize} 
-  #memo << ! 
+  memo << ! 
 end 
 
 def long_planeteer_calls# code an argument here
