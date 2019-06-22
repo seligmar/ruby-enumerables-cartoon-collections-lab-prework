@@ -6,6 +6,7 @@ def summon_captain_planet(planateer_calls)
   memo = planateer_calls.map {|letter| letter.capitalize} 
   memo << ! 
 end
+end 
 
 def long_planeteer_calls# code an argument here
   # Your code here
