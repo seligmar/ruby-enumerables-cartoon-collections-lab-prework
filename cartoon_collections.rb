@@ -23,6 +23,6 @@ def find_the_cheese(foods)
    foods.find do |cheese| 
      cheese == "cheddar" || cheese == "gouda" || cheese == "camembert" 
   end
-  return cheese
+ # return cheese
 end
 end 
