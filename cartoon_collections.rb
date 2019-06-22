@@ -3,9 +3,8 @@ def roll_call_dwarves(dwarves)
 end 
 
 def summon_captain_planet(planateer_calls)
-  #memo = []
   memo = planateer_calls.map {|letter| letter.capitalize} 
-  memo << ! 
+  memo.map {|exclaim| "#{exclaim!}"}
 end 
 
 def long_planeteer_calls# code an argument here
