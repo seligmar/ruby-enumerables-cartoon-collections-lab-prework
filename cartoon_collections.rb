@@ -1,4 +1,4 @@
-enddef roll_call_dwarves(dwarves)
+roll_call_dwarves(dwarves)
   var1 = []
   dwarves.each_with_index do {|tyrion, index| var1[tyrion] = index}
   puts "#{var1}"
